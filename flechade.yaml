@@ -34,6 +34,15 @@ steps:
   params:
   - google-chrome-stable
   desc: Installing Google Chrome
-
+- command: CopyFile
+  params:
+  - vscode.list
+  - /etc/apt/sources.list.d/
+  desc: MS VSCode repo sources
+- command: AddRepoKey
+  params:
+  - https://packages.microsoft.com/keys/microsoft.asc
+  - /etc/apt/keyrings/packages.microsoft.asc
+  desc: Adding MS public keys
 
 
