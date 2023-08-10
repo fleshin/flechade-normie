@@ -1,0 +1,39 @@
+ver: 0.0.2
+name: normie
+description: Normie Winoffice - Basic customization set for office tasks on a familiar windows environment
+steps:
+- command: CopyFile
+  params:
+  - google-chrome.list
+  - /etc/apt/sources.list.d/
+  desc: Google Chrome repo sources
+- command: AddRepoKey
+  params:
+  - https://dl.google.com/linux/linux_signing_key.pub
+  - /etc/apt/keyrings/linux_signing_key.pub
+  desc: Adding Google public keys
+- command: AddArch
+  params:
+  - i386
+  desc: Enabling 32bit packages
+- command: UpdateRepos
+  desc: Updating package repositories
+- command: UpgradePackages
+  desc: Upgrading packages
+- command: EnableFlatpak
+  desc: Enabling Flatpaks
+- command: InstallPackages
+  params:
+  - fonts-font-awesome neofetch mc tmux curl plocate sassc dbus-x11 avahi-daemon 
+  desc: Installing system tools
+- command: InstallFlatpaks
+  params:
+  - com.github.tchx84.Flatseal com.github.wwmm.easyeffects org.onlyoffice.desktopeditors com.discordapp.Discord org.videolan.VLC 
+  desc: Installing Flatpak apps
+- command: InstallPackages
+  params:
+  - google-chrome-stable
+  desc: Installing Google Chrome
+
+
+
