@@ -28,7 +28,7 @@ steps:
   desc: Installing system tools
 - command: InstallFlatpaks
   params:
-  - com.github.tchx84.Flatseal com.github.wwmm.easyeffects org.onlyoffice.desktopeditors com.discordapp.Discord org.videolan.VLC 
+  - com.github.tchx84.Flatseal com.github.wwmm.easyeffects org.onlyoffice.desktopeditors com.discordapp.Discord org.videolan.VLC com.adobe.Reader
   desc: Installing Flatpak apps
 - command: InstallPackages
   params:
