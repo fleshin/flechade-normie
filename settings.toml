@@ -1,0 +1,206 @@
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/share/images/winbg.jpg'
+picture-uri-dark='file:///usr/share/images/winbg.jpg'
+primary-color='#ffffff'
+secondary-color='#000000'
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+clock-show-date=false
+clock-show-seconds=false
+clock-show-weekday=false
+cursor-theme='DMZ-White'
+font-antialiasing='rgba'
+font-hinting='medium'
+font-name='Segoe UI Light 11'
+gtk-theme='Fluent-round-Light'
+icon-theme='Win11'
+monospace-font-name='Noto Sans Mono 11'
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-software']
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/desktop/privacy]
+report-technical-problems=true
+
+[org/gnome/desktop/screensaver]
+picture-options='zoom'
+picture-uri='file:///usr/share/desktop-base/futureprototype-theme/wallpaper/gnome-background.xml'
+primary-color='#ffffff'
+secondary-color='#000000'
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/evolution]
+version='3.46.4'
+
+[org/gnome/evolution/calendar]
+week-start-day-name='monday'
+work-day-friday=true
+work-day-monday=true
+work-day-saturday=false
+work-day-sunday=false
+work-day-thursday=true
+work-day-tuesday=true
+work-day-wednesday=true
+
+[org/gnome/evolution/mail]
+browser-close-on-reply-policy='ask'
+forward-style-name='attached'
+image-loading-policy='never'
+paned-size=1098507
+reply-style-name='quoted'
+to-do-bar-width=1150000
+
+[org/gnome/evolution/shell/window]
+height=791
+maximized=false
+width=1188
+x=85
+y=70
+
+[org/gnome/mutter]
+overlay-key='Super_L'
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='small-plus'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(914, 708)
+
+[org/gnome/shell]
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-panel@jderose9.github.com', 'arcmenu@arcmenu.com', 'blur-my-shell@aunetx', 'date-menu-formatter@marcinjakubowski.github.com', 'mediacontrols@cliffniff.github.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'org.gnome.Evolution.desktop', 'org.onlyoffice.desktopeditors.desktop', 'org.gnome.Software.desktop']
+welcome-dialog-last-shown-version='43.6'
+
+[org/gnome/shell/extensions/arcmenu]
+alphabetize-all-programs=false
+button-padding=5
+custom-menu-button-icon='/usr/share/images/winlogo.png'
+custom-menu-button-icon-size=33.0
+force-menu-location='BottomCentered'
+left-panel-width=175
+menu-background-color='rgba(48,48,49,0.98)'
+menu-border-color='rgb(60,60,60)'
+menu-button-appearance='Icon'
+menu-button-icon='Custom_Icon'
+menu-foreground-color='rgb(223,223,223)'
+menu-height=750
+menu-item-active-bg-color='rgb(25,98,163)'
+menu-item-active-fg-color='rgb(255,255,255)'
+menu-item-hover-bg-color='rgb(21,83,158)'
+menu-item-hover-fg-color='rgb(255,255,255)'
+menu-item-icon-size='Large'
+menu-layout='Eleven'
+menu-separator-color='rgba(255,255,255,0.1)'
+pinned-app-list=['', '', 'firefox.desktop', '', '', 'org.gnome.Nautilus.desktop', '', '', 'org.gnome.Terminal.desktop']
+prefs-visible-page=0
+search-entry-border-radius=(true, 25)
+
+[org/gnome/shell/extensions/blur-my-shell/panel]
+brightness=1.0
+customize=true
+override-background=false
+sigma=10
+
+[org/gnome/shell/extensions/dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+appicon-margin=0
+appicon-padding=6
+available-monitors=[0]
+dot-position='BOTTOM'
+dot-style-focused='DASHES'
+dot-style-unfocused='DASHES'
+hide-overview-on-startup=true
+hotkeys-overlay-combo='TEMPORARILY'
+leftbox-padding=4
+leftbox-size=16
+panel-anchors='{"0":"MIDDLE"}'
+panel-element-positions='{"0":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"centered"},{"element":"taskbar","visible":true,"position":"centered"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-lengths='{"0":100}'
+panel-sizes='{"0":48}'
+primary-monitor=0
+status-icon-padding=4
+tray-padding=4
+tray-size=16
+window-preview-title-position='TOP'
+
+[org/gnome/shell/extensions/date-menu-formatter]
+pattern='MM/dd/yy\\nHH : mm aa'
+
+[org/gnome/shell/extensions/mediacontrols]
+colored-player-icon=true
+extension-position='right'
+mouse-actions=['toggle_info', 'none', 'none', 'none', 'none', 'none', 'none', 'none']
+seperator-chars=['|', '|']
+show-control-icons=false
+show-sources-menu=false
+show-text=false
+track-label=['track', '-', 'artist']
+
+[org/gnome/shell/extensions/user-theme]
+name='Fluent-Light'
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(23,20,33)'
+foreground-color='rgb(208,207,204)'
+use-theme-colors=false
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=169
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(848, 327)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=148
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(26, 23)
+window-size=(1203, 902)
+

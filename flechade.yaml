@@ -44,5 +44,77 @@ steps:
   - https://packages.microsoft.com/keys/microsoft.asc
   - /etc/apt/keyrings/packages.microsoft.asc
   desc: Adding MS public keys
-
-
+- command: CloneAndRun
+  params:
+  - https://github.com/yeyushengfan258/Win11-icon-theme
+  - install.sh
+  desc: Installing Win Icon theme
+- command: CloneAndRun
+  params:
+  - https://github.com/vinceliuice/Fluent-gtk-theme
+  - install.sh -l --tweaks round
+  desc: Installing Fluent theme
+- command: EnableGnomeExt
+  params:
+  - user-theme@gnome-shell-extensions.gcampax.github.com
+  desc: Enabling Gnome Extension User Themes
+- command: InstallGnomeExt
+  params:
+  - blur-my-shell@aunetx
+  - "47"
+  desc: Installing blur effects extension
+- command: InstallGnomeExt
+  params:
+  - blur-my-shell@aunetx
+  - "47"
+  desc: Installing Blur my shell extension
+- command: InstallGnomeExt
+  params:
+  - arcmenu@arcmenu.com
+  - "47"
+  desc: Installing blur effects extension
+- command: InstallGnomeExt
+  params:
+  - arcmenu@arcmenu.com
+  - "47"
+  desc: Installing Arc menu extension
+- command: InstallGnomeExt
+  params:
+  - dash-to-panel@jderose9.github.com
+  - "56"
+  desc: Installing Dash to panel extension
+- command: InstallGnomeExt
+  params:
+  - date-menu-formatter@marcinjakubowski.github.com
+  - "10"
+  desc: Installing Date menu formatter extension
+- command: InstallGnomeExt
+  params:
+  - mediacontrols@cliffniff.github.com
+  - "10"
+  desc: Installing media controls extension
+- command: CloneAndRun
+  params:
+  - https://github.com/ryanoasis/nerd-fonts.git
+  - install.sh --install-to-system-path
+  desc: Installing Nerd fonts
+- command: CopyFile
+  params:
+  - segoeuil.ttf
+  - /usr/share/fonts/truetype
+  desc: Installing Segoe font
+- command: CopyFile
+  params:
+  - winlogo.png
+  - /usr/share/images
+  desc: Installing Win menu logo
+- command: CopyFile
+  params:
+  - winbg.jpg
+  - /usr/share/images
+  desc: Installing Win background
+  desc: Installing Grub Theme
+- command: InstallGnomeSettings
+  params:
+  - settings.toml
+  desc: Loading Gnome Settings
