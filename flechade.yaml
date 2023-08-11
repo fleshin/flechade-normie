@@ -113,6 +113,16 @@ steps:
   - winbg.jpg
   - /usr/share/images
   desc: Installing Win background
+- command: CopyFile
+  params:
+  - vanilla-dmz-0.4.tar.bz2
+  - /tmp
+  desc: Creating DMZ cursor theme
+- command: Untar
+  params:
+  - /tmp/vanilla-dmz-0.4.tar.bz2
+  - /usr/share/icons
+  desc: Installing DMZ cursor theme
 - command: InstallGnomeSettings
   params:
   - settings.toml

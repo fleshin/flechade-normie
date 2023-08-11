@@ -166,7 +166,7 @@ show-text=false
 track-label=['track', '-', 'artist']
 
 [org/gnome/shell/extensions/user-theme]
-name='Fluent-Light'
+name='Fluent-round-Light'
 
 [org/gnome/shell/world-clocks]
 locations=@av []
