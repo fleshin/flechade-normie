@@ -118,10 +118,14 @@ steps:
   - vanilla-dmz-0.4.tar.bz2
   - /tmp
   desc: Creating DMZ cursor theme
+- command: CreateDir
+  params:
+  - /usr/share/icons/DMZ
+  desc: Creating DMZ directory
 - command: Untar
   params:
   - /tmp/vanilla-dmz-0.4.tar.bz2
-  - /usr/share/icons
+  - /usr/share/icons/DMZ
   desc: Installing DMZ cursor theme
 - command: InstallGnomeSettings
   params:
