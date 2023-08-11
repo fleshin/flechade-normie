@@ -24,7 +24,7 @@ steps:
   desc: Enabling Flatpaks
 - command: InstallPackages
   params:
-  - fonts-font-awesome neofetch mc tmux curl plocate sassc dbus-x11 avahi-daemon 
+  - fonts-font-awesome neofetch mc tmux curl plocate sassc dbus-x11 avahi-daemon git
   desc: Installing system tools
 - command: InstallFlatpaks
   params:
