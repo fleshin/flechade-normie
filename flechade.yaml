@@ -113,7 +113,6 @@ steps:
   - winbg.jpg
   - /usr/share/images
   desc: Installing Win background
-  desc: Installing Grub Theme
 - command: InstallGnomeSettings
   params:
   - settings.toml
