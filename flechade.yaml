@@ -28,7 +28,7 @@ steps:
   desc: Installing system tools
 - command: InstallFlatpaks
   params:
-  - com.github.tchx84.Flatseal com.github.wwmm.easyeffects org.onlyoffice.desktopeditors com.discordapp.Discord org.videolan.VLC com.adobe.Reader com.spotify.Client org.telegram.desktop com.microsoft.Edge com.skype.Client us.zoom.Zoom io.github.mimbrero.WhatsAppDesktop com.github.IsmaelMartinez.teams_for_linux org.audacityteam.Audacity org.remmina.Remmina org.filezillaproject.Filezilla com.github.wwmm.easyeffects io.github.hakandundar34coding.system-monitoring-center com.github.k4zmu2a.spacecadetpinball net.cozic.joplin_desktop flathub com.dropbox.Client com.sublimetext.three com.hamrick.VueScan
+  - com.github.tchx84.Flatseal com.github.wwmm.easyeffects org.onlyoffice.desktopeditors com.discordapp.Discord org.videolan.VLC com.adobe.Reader com.spotify.Client org.telegram.desktop com.microsoft.Edge com.skype.Client us.zoom.Zoom io.github.mimbrero.WhatsAppDesktop com.github.IsmaelMartinez.teams_for_linux org.audacityteam.Audacity org.remmina.Remmina org.filezillaproject.Filezilla com.github.wwmm.easyeffects io.github.hakandundar34coding.system-monitoring-center com.github.k4zmu2a.spacecadetpinball net.cozic.joplin_desktop com.dropbox.Client com.sublimetext.three com.hamrick.VueScan
   desc: Installing Flatpak apps
 - command: InstallPackages
   params:
