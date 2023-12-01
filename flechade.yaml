@@ -65,9 +65,9 @@ steps:
   desc: Installing blur effects extension
 - command: InstallGnomeExt
   params:
-  - blur-my-shell@aunetx
-  - "47"
-  desc: Installing Blur my shell extension
+  - trayIconsReloaded@selfmade.pl
+  - "26"
+  desc: Installing Icon tray extension
 - command: InstallGnomeExt
   params:
   - arcmenu@arcmenu.com
